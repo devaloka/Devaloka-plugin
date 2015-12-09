@@ -12,4 +12,8 @@ Domain Path: /devaloka-plugin/languages
 Network: true
 */
 
+if (!defined('ABSPATH')) {
+    exit;
+}
+
 require WPMU_PLUGIN_DIR . '/devaloka-plugin/devaloka-plugin.php';
