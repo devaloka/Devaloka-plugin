@@ -41,7 +41,7 @@ trait TranslatablePluginTrait
             return load_muplugin_textdomain($domain, $path);
         }
 
-        return load_plugin_textdomain($domain, $path);
+        return load_plugin_textdomain($domain, false, $path);
     }
 
     public function loadLocaleFile($locale = null, $path = null)
