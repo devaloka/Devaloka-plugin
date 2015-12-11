@@ -51,14 +51,7 @@ trait TranslatablePluginTrait
         $locale = ($locale !== null) ? $locale : $this->getLocale();
         $path   = ($path !== null) ? $path : $this->getDomainPath();
 
-        $file        = wp_normalize_path($this->getFile());
-        $muPluginDir = wp_normalize_path(WPMU_PLUGIN_DIR);
-
-        if (strpos($file, $muPluginDir) === 0) {
-            $path = basename($this->getDirectory()) . $path;
-        }
-
-        $localeFile = $path . '/' . $locale . '.php';
+        $localeFile = $this->getDirectory() . $path . '/' . $locale . '.php';
 
         if (validate_file($localeFile) === 0 && is_readable($localeFile)) {
             require_once $localeFile;
