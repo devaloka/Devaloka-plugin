@@ -47,14 +47,20 @@ abstract class AbstractPlugin implements PluginInterface
         // <plugin>/<plugin>.php
         $this->baseName = plugin_basename($file);
 
-        // <plugin>
-        $this->textDomain = ($data['TextDomain'] !== '') ? $data['TextDomain'] : basename($this->directory);
+        if ($this instanceof TranslatablePluginInterface) {
+            // <plugin>
+            $textDomain = ($data['TextDomain'] !== '') ? $data['TextDomain'] : basename($this->directory);
 
-        // </languages>
-        $this->domainPath = ($data['DomainPath'] !== '') ? $data['DomainPath'] : '/languages';
+            // </languages>
+            $domainPath = ($data['DomainPath'] !== '') ? $data['DomainPath'] : '/languages';
 
-        // <locale>
-        $this->locale = get_locale();
+            // <locale>
+            $locale = get_locale();
+
+            $this->setTextDomain($textDomain);
+            $this->setDomainPath($domainPath);
+            $this->setLocale($locale);
+        }
     }
 
     /**

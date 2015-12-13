@@ -50,16 +50,25 @@ interface PluginInterface
     public function getBasename();
 
     /**
+     * @deprecated 0.6.0 Moved to TranslatableInterface.
+     * @see \Devaloka\Translation\TranslatableInterface
+     *
      * @return string
      */
     public function getTextDomain();
 
     /**
+     * @deprecated 0.6.0 Moved to TranslatableInterface.
+     * @see \Devaloka\Translation\TranslatableInterface
+     *
      * @return string
      */
     public function getDomainPath();
 
     /**
+     * @deprecated 0.6.0 Moved to TranslatableInterface.
+     * @see \Devaloka\Translation\TranslatableInterface
+     *
      * @return string
      */
     public function getLocale();
