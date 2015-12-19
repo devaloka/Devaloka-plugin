@@ -1,3 +1,17 @@
+<a name="0.6.1"></a>
+## [0.6.1](https://github.com/devaloka/devaloka-plugin/compare/v0.6.0...v0.6.1) (2015-12-19)
+
+
+### Bug Fixes
+
+* incorrect loader file path ([6c4cabd](https://github.com/devaloka/devaloka-plugin/commit/6c4cabd))
+
+### Features
+
+* introduce Devaloka MU Plugin Installer ([57a9b31](https://github.com/devaloka/devaloka-plugin/commit/57a9b31))
+
+
+
 <a name="0.6.0"></a>
 # [0.6.0](https://github.com/devaloka/devaloka-plugin/compare/v0.5.0...v0.6.0) (2015-12-13)
 
@@ -20,7 +34,3 @@
 
 <a name="0.5.0"></a>
 # 0.5.0 (2015-12-09)
-
-
-
-
