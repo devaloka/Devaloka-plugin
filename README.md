@@ -21,6 +21,3 @@ development.
     ```sh
     composer require devaloka/devaloka-plugin
     ```
-
-2.  Move `loader/10-devaloka-plugin-loader.php` into
-    `<ABSPATH>wp-content/mu-plugins/`.
