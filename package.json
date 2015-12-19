@@ -1,6 +1,6 @@
 {
     "name"           : "devaloka-plugin",
-    "version"        : "0.6.0",
+    "version"        : "0.6.1",
     "description"    : "Provides Interfaces, Traits, and Classes for WordPress Plugin",
     "keywords"       : [
         "wordpress",
