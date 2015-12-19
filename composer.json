@@ -45,6 +45,6 @@
         ]
     },
     "extra"            : {
-        "installer-loader": "loader/40-devaloka-plugin-loader.php"
+        "installer-loader": "loader/10-devaloka-plugin-loader.php"
     }
 }
