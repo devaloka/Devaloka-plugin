@@ -1,3 +1,13 @@
+<a name="0.6.2"></a>
+## [0.6.2](https://github.com/devaloka/devaloka-plugin/compare/v0.6.1...v0.6.2) (2015-12-29)
+
+
+### Bug Fixes
+
+* incorrect version number in plugin header comment ([15f9136](https://github.com/devaloka/devaloka-plugin/commit/15f9136))
+
+
+
 <a name="0.6.1"></a>
 ## [0.6.1](https://github.com/devaloka/devaloka-plugin/compare/v0.6.0...v0.6.1) (2015-12-19)
 
