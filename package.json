@@ -8,7 +8,7 @@
     ],
     "homepage"       : "https://github.com/devaloka/devaloka-plugin",
     "bugs"           : {
-        "url": "https://github.com/devaloka/devaloka-plugin/isssues"
+        "url": "https://github.com/devaloka/devaloka-plugin/issues"
     },
     "license"        : "(MIT OR GPL-2.0 OR GPL-3.0)",
     "author"         : {
